@@ -5,6 +5,7 @@
 		<title>HTML Academy: Барбершоп</title>
 	</head>
 	<body>
+		<!-- Начало хедера -->
 		<header class="page-header">
 			<nav class="main-navigation">
 				<a href="#" class="logo-wrapper">
@@ -22,25 +23,84 @@
 				</ul>
 			</nav>
 		</header>
-
+		<!-- Конец хедера -->
+		<!-- Начало основного контента -->
 		<main>
 			<h1 class="invisible">Барбершоп «Бородинский»</h1>
-			<h2 class="invisible">Преимущества</h2>
-			<ul class="features-list">
-				<li>
-					<h3 class="section-title feature-title">Быстро</h3>
-					<p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
-				</li>
-				<li>
-					<h3 class="section-title feature-title">Круто</h3>
-					<p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+			<!-- Блок преимуществ -->
+			<section class="features">	
+				<h2 class="invisible">Преимущества</h2>
+				<ul class="features-list">
+					<li>
+						<h3 class="section-title feature-title">Быстро</h3>
+						<p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+					</li>
+					<li>
+						<h3 class="section-title feature-title">Круто</h3>
+						<p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+						</p>
+					</li>
+					<li>
+						<h3 class="section-title feature-title">Дорого</h3>
+						<p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+					</li>
+				</ul>
+			</section>
+			<!-- Новостной блок и галлерея -->
+			<div class="news-wrapper">
+				<!-- Новости -->
+				<section class="news">
+					<h2 class="section-title">Новости</h2>
+					<ul class="news-list">
+						<li>
+							<p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+							<time datetime="2016-1-11">11 января</time>
+						</li>
+						<li>
+							<p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+							<time datetime="2016-1-18">18 января</time>
+						</li>
+					</ul>
+					<a href="#" class="button">Все новости</a>
+				</section>
+				<!-- Галлерея -->
+				<section class="gallery">
+					<h2 class="section-title">Фотогалерея</h2>
+					<figure class="image-wrapper">
+							<a href="#">
+								<img src="" alt="Обстановка" width="286" height="164">
+							</a>
+					</figure>
+					<button class="button gallery-button button-back">Назад</button>
+					<button class="button gallery-button button-forward">Вперёд</button>
+				</section>
+			</div>
+			<!-- Контактная информация и форма записи -->
+			<div class="order-wrapper">
+				<!-- Контактная информация -->
+				<section class="contacts">
+					<h2 class="section-title">Контактная информация</h2>
+					<p>
+						БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+						АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+						ТЕЛЕФОН: +7 (495) 666-02-66
 					</p>
-				</li>
-				<li>
-					<h3 class="section-title feature-title">Дорого</h3>
-					<p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
-				</li>
-			</ul>
+					<p>
+						ВРЕМЯ РАБОТЫ:<br>
+						ПН—ПТ: С 10:00 ДО 22:00<br>
+						СБ—ВС: С 10:00 ДО 19:00
+					</p>
+					<a href="#" class="button contacts-button">Как проехать</a>
+					<a href="#" class="button contacts-button">Обратная связь</a>
+				</section>
+				<!-- Форма для записи -->
+				<section class="order-form">
+					<h2 class="section-title">Записаться</h2>
+					<p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ </p>
+					<form action="" method="post"></form>
+				</section>
+				
+			</div>
 		</main>
 	</body>
 </html>
